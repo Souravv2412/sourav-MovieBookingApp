@@ -1,0 +1,36 @@
+.header-container {
+	background-color: #222;
+	height: 36px;
+	padding: 8px 32px 8px 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo {
+	background-color: #ff7f7f;
+	height: 35px;
+	animation: logoRotator 8s infinite linear;
+}
+@keyframes logoRotator {
+	0% {
+		-ms-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+	}
+	100% {
+		-ms-transform: rotateY(360deg);
+		transform: rotateY(360deg);
+	}
+}
+
+.textField {
+	margin: auto;
+	width: max-content;
+	display: flex;
+	flex-direction: column;
+}
+.textField button {
+	width: max-content;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}

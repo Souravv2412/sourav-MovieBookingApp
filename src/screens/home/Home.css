@@ -1,0 +1,41 @@
+/* subheading */
+
+.sub-heading {
+	margin: 0;
+	padding: 8px;
+	font-size: 1rem;
+	text-align: center;
+	background: #ff9999;
+	width: 100vw;
+}
+
+.upcoming-movies-field {
+	height: 35vh;
+	background: gray;
+}
+
+/* Search movie form */
+.search-movie-form {
+	margin: auto;
+	margin-left: 73%;
+	/* text-align: end; */
+	right: 10px;
+	width: 25vw;
+}
+.search-movie-form form {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.genre-select {
+	position: relative;
+	width: 100%;
+}
+.genre-select span {
+	position: absolute;
+	inset: 0;
+	left: 0;
+}
+.genre-select Select {
+	width: 100%;
+}
